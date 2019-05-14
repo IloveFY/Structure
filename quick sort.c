@@ -1,4 +1,3 @@
-```c
 int partition(int* arr,int left,int right){
   //选取第一个数为轴
 	int pivot = arr[left];
@@ -22,4 +21,3 @@ void sort(int * arr,int left,int right){
 		sort(arr, pivot+1, right);
 	}
 }
-```
